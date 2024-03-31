@@ -9,6 +9,8 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 class Import extends BaseController
 {
+    protected $Mahasiswa;
+    
     public function __construct()
     {
         $this->Mahasiswa = new MahasiswaModel();
